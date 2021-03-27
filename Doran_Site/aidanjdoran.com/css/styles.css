@@ -9999,7 +9999,18 @@ h3 {
     line-height: 2.5rem;
   }
 }
-
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -10168,6 +10179,7 @@ h3 {
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+  
 }
 
 .portfolio-modal .portfolio-modal-title {
