@@ -34,29 +34,28 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead--> <!--NEWCOMMENTWOWOWOWOWOWOWOWOWOWOWOWOWOWOWOWOWO-->
-        <div class="container">
-            <div style="text-align:center">
-              <h2>Contact Me</h2>
-              <p>Connect with me on Github or LinkedIn. Have Questions? Lets Talk!</p>
+        <!-- Masthead--> 
+        <div class="containerContact">
+            <div class="row-cont text-center">
+              <h2>Connect with me on Github or LinkedIn. Have Questions? Lets Talk!</h2>
             </div>
             <div class="rowContact">
               <div class="columnContact">
-                <form action="/action_page.php">
-                  <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  <label for="ID">What would you like to talk about?</label>
-                  <select id="country" name="country">
-                    <option value="jobs">Jobs</option>
-                    <option value="portfolio">Portfolio</option>
-                    <option value="general">General Question</option>
-                  </select>
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
-                </form>
+                <form action="https://formsubmit.co/aidanjdoran@outlook.com" method="POST">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Your Name">
+                
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="email" placeholder="email@example.com">
+
+                    <label for="lname">Subject</label>
+                    <input type="text" id="lname" name="subject" placeholder="Subject">
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="message" placeholder="What would you like to say?" style="height:200px"></textarea>
+
+                    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="submit">Send</button>
+               </form>
               </div>
             </div>
           </div>
